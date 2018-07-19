@@ -1,0 +1,183 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    width: 100%;
+    background-color: #000033;   
+}
+header, footer {
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 1em;
+    color: white;
+    background-color: #003399;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left ;
+    max-width: 160px;
+    margin: 0;
+    padding: 0.5em;
+    background-color:   #33FFCC;
+    border-bottom-right-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+nav ul a {
+    text-decoration: none;
+    color: #330033;
+}
+
+nav ul li:hover{
+    background-color: #33CC66;
+    border-radius: 3px;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li.active{
+    background-color: #33CC00;
+    color: #339999;
+}
+
+article {
+    margin-left: 100px;
+    border-left: 1px solid #6F4E37;
+    padding: 1em;
+    height:860px;
+    background-color: #3399CC;
+
+}
+#ul2{
+    margin:0;
+}
+#ul2 li:hover,.dropContent a:hover{
+    background-color: #33CC66;
+    border-radius: 3px;
+}
+#ul2 li a:hover,.dropContent a:hover{
+    color: white;
+}
+#ul2 li.active{
+    background-color: #3399CC;
+    color: #3399CC;
+}
+#ul2 li{
+    background-color:#33FFCC;
+    color: #33FFCC;
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+}
+#ul2 li a, .dropButton{
+
+    text-decoration: none;
+    display: inline-block;
+}
+#ul2 li.drop{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.dropContent{
+    display: none;
+    position: absolute;
+    padding: 0;
+    max-width: 180.4px; 
+    border-radius: 3px;
+    background-color: #CCFFCC;
+    border-color: #CCFFCC;
+    border-style: solid;
+    border-width: 1px;
+}
+.dropContent a{
+    padding: 5px ;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.drop:hover .dropContent{
+    display: block;
+}
+
+@media screen and (max-width: 470px){
+	nav{
+		max-width: 470px;
+	}	
+	nav li{
+		float:left;
+		margin-left: 5px;
+	}
+	article{
+		float: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		border-left: none;
+	}
+}
+
+#p1{
+    width: 100px;
+
+}
+#p1:hover{
+    transform: rotate(180deg);
+}
+#p2{
+    width: 100px;
+
+}
+#p2:hover{
+    transform: rotate(180deg);
+}
+#p3{
+    width: 100px;
+
+}
+#p3:hover{
+    transform: rotate(180deg);
+}
+#p4{
+    width: 100px;
+
+}
+#p4:hover{
+    transform: rotate(180deg);
+}
+#p5{
+    width: 100px;
+
+}
+#p5:hover{
+    transform: rotate(180deg);
+}
+#p6{
+    width: 100px;
+
+}
+#p6:hover{
+    transform: rotate(180deg);
+}
+#p7{
+    width: 100px;
+
+}
+#p7:hover{
+    transform: rotate(180deg);
+}
+#p8{
+    width: 100px;
+
+}
+#p8:hover{
+    transform: rotate(180deg);
+}
